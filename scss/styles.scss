@@ -86,7 +86,7 @@ form {
         display: block;
         width: 100%;
         padding: 1rem;
-        border-radius: 5rem;
+        border-radius: 5px;
     }
     .btn {
         width: 100%;
@@ -103,6 +103,13 @@ form {
               
             }
         }
+    }
+}
+
+//contact
+#contact {
+    .flexbox {
+        flex: 1;
     }
 }
 
