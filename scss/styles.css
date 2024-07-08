@@ -91,7 +91,7 @@ form .form-control {
   padding: 1rem;
   border-radius: 5px;
 }
-form .btn {
+form button {
   width: 100%;
 }
 
@@ -100,6 +100,43 @@ form .btn {
 }
 #mainheader .subnavig .subnav .form-inline {
   display: inline;
+}
+#mainheader .navbar .logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#mainheader .navbar li {
+  display: inline;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+#showcase {
+  width: 90%;
+  margin: 0 auto;
+}
+#showcase .showcase-flex img {
+  width: 50%;
+}
+#showcase .showcase-flex a {
+  padding: 1rem 0;
+}
+#showcase .showcase-flex .subtitle {
+  margin: 1rem 0;
+}
+#showcase .showcase-flex h4 {
+  margin-bottom: 2rem;
+}
+#showcase .showcase-flex .btn {
+  margin: 2rem 0;
+  width: 200px;
 }
 
 #contact .flexbox {
