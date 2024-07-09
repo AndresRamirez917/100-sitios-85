@@ -1,1 +1,25 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .subnavig {
+  margin: 2rem 0;
+}
+#mainheader .subnavig .subnav {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#showcase .showcase-flex {
+  display: block;
+}
+#showcase .showcase-flex img {
+  width: 100%;
+}
+#showcase .showcase-flex .showcase-content p {
+  text-align: justify;
+}
+
+#showcase-2 .showcase-2-flex {
+  display: block;
+}
+#showcase-2 .showcase-2-flex .row-1, #showcase-2 .showcase-2-flex .row-2, #showcase-2 .showcase-2-flex .row-3 {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=mobile.css.map */
