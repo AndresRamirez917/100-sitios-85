@@ -95,11 +95,28 @@ form button {
   width: 100%;
 }
 
+#mainheader .subnavig {
+  width: 90%;
+}
 #mainheader .subnavig .subnav {
   text-align: end;
+  margin-top: 1rem;
 }
 #mainheader .subnavig .subnav .form-inline {
   display: inline;
+}
+#mainheader .subnavig .subnav .form-inline input {
+  padding: 10px;
+}
+#mainheader .subnavig .subnav .form-inline ::-moz-placeholder {
+  text-align: left;
+}
+#mainheader .subnavig .subnav .form-inline ::placeholder {
+  text-align: left;
+}
+#mainheader .subnavig .subnav .form-inline .btn-outline-dark {
+  width: 50px;
+  height: 40px;
 }
 #mainheader .navbar .logo {
   display: block;
@@ -169,6 +186,47 @@ form button {
   flex: 1;
 }
 
+#quotes {
+  width: 90%;
+  margin: 0 auto;
+}
+#quotes .quotes-row {
+  margin-bottom: 2rem;
+}
+#quotes .quotes-row .fa-quote-left, #quotes .quotes-row .fa-quote-right {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: orangered;
+}
+#quotes .quotes-row .fa-quote-right {
+  margin-left: 200px;
+}
+#quotes .quotes-row p {
+  line-height: 30px;
+}
+#quotes .quotes-row .quotes-row4 {
+  background: rgb(179, 156, 114);
+  text-align: center;
+}
+#quotes .quotes-row .quotes-row4 .fa-quote-left, #quotes .quotes-row .quotes-row4 .fa-quote-right {
+  color: #fff;
+}
+
+#gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+#gallery .gallery-row {
+  margin-bottom: 2rem;
+}
+#gallery .gallery-row img {
+  width: 30%;
+}
+
+#contact {
+  width: 75%;
+  margin: 0 auto;
+}
 #contact .flexbox {
   flex: 1;
 }

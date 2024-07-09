@@ -93,14 +93,29 @@ form {
     }
 }
 
+
+
 //mainheader
 #mainheader {
     .subnavig {
+        width: 90%;
+
         .subnav {
             text-align: end;
+            margin-top: 1rem;
             .form-inline {
                 display: inline;
-              
+
+                input {
+                    padding: 10px;
+                }
+                ::placeholder {
+                    text-align: left;
+                }
+              .btn-outline-dark {
+                width: 50px;
+                height: 40px;
+              }
             }
         }
     }
@@ -183,9 +198,52 @@ form {
 }
 
 
+//quotes
+#quotes {
+    width: 90%;
+    margin: 0 auto;
+    .quotes-row {
+        .fa-quote-left, .fa-quote-right {
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            color: orangered;
+        }
+        .fa-quote-right {
+            margin-left: 200px;
+        }
+        margin-bottom: 2rem;
+        p {
+            line-height: 30px;
+        }
+        .quotes-row4 {
+            background: rgb(179, 156, 114);
+            text-align: center;
+            .fa-quote-left, .fa-quote-right {
+                color: #fff;
+            }
+        }
+    }
+}
+
+//gallery
+#gallery {
+    
+    width: 80%;
+    margin: 0 auto;
+    .gallery-row {
+   
+        margin-bottom: 2rem;
+        img {
+            width: 30%;
+        }
+    }
+}
+
 
 //contact
 #contact {
+    width: 75%;
+    margin: 0 auto;
     .flexbox {
         flex: 1;
     }
