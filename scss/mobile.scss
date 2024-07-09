@@ -1,10 +1,11 @@
 //mainheader
 #mainheader {
     .subnavig {
-        margin: 2rem 0;
+       
+        margin: 0 auto;
         .subnav {
+            margin: 2rem 0;
             display: block;
-            margin: 0 auto;
             text-align: center;
         }
        
@@ -26,12 +27,49 @@
     }
 }
 
+//article
+#article{
+    .article-flex {
+        display: block;
+        img {
+            width: 100%;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
+
 //showcase-2
 #showcase-2 {
     .showcase-2-flex {
         display: block;
         .row-1, .row-2, .row-3 {
             margin-bottom: 2rem;
+        }
+    }
+}
+
+//quotes
+#quotes {
+    .quotes-row {
+        display: block;
+        .quotes-row4{
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+//gallery
+#gallery {
+    .gallery-row{
+
+        img {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .gallery-row1 {
+            display: block;
         }
     }
 }

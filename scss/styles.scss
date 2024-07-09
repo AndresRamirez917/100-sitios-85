@@ -105,12 +105,12 @@ form {
             margin-top: 1rem;
             .form-inline {
                 display: inline;
-
                 input {
                     padding: 10px;
                 }
                 ::placeholder {
                     text-align: left;
+                    font-family: "Montserrat", sans-serif;
                 }
               .btn-outline-dark {
                 width: 50px;
@@ -161,6 +161,24 @@ form {
             width: 200px;
         }
 
+    }
+}
+//article
+#article {
+    .article-flex {
+        img {
+            float: left;
+            width: 50%;
+            height: 50%;
+        }
+        .article-content {
+            h2 {
+                margin: 1rem 0;
+            }
+            h4 {
+                margin-bottom: 1rem;
+            }
+        }
     }
 }
 
